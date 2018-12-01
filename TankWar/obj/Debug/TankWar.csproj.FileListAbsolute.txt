@@ -1,0 +1,11 @@
+D:\csharp.project\小游戏\TankWar\TankWar\bin\Debug\TankWar.exe.config
+D:\csharp.project\小游戏\TankWar\TankWar\bin\Debug\TankWar.exe
+D:\csharp.project\小游戏\TankWar\TankWar\bin\Debug\TankWar.pdb
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.csprojAssemblyReference.cache
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.F_Main.resources
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.Properties.Resources.resources
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.csproj.GenerateResource.cache
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.csproj.CoreCompileInputs.cache
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.exe
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.pdb
+D:\csharp.project\小游戏\TankWar\TankWar\obj\Debug\TankWar.csproj.CopyComplete

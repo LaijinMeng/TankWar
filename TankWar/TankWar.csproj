@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CE8FC43-2566-441A-83DE-A7A967734BC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TankWar</RootNamespace>
+    <AssemblyName>TankWar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\Boom.cs" />
+    <Compile Include="Entity\BulletFather.cs" />
+    <Compile Include="Entity\Enemy.cs" />
+    <Compile Include="Entity\EnemyBullet.cs" />
+    <Compile Include="Entity\GameObject.cs" />
+    <Compile Include="Entity\MapElement.cs" />
+    <Compile Include="Entity\Player.cs" />
+    <Compile Include="Entity\PlayerBullet.cs" />
+    <Compile Include="Entity\TankBorm.cs" />
+    <Compile Include="Entity\TankFather.cs" />
+    <Compile Include="Enum\Enums.cs" />
+    <Compile Include="F_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Main.Designer.cs">
+      <DependentUpon>F_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="F_Main.resx">
+      <DependentUpon>F_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2L.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2R.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankD.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankU.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tankmissile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MapData\map.txt" />
+    <Content Include="Resources\add.wav" />
+    <Content Include="Resources\blast.wav" />
+    <Content Include="Resources\bomb.gif" />
+    <Content Include="Resources\born1.gif" />
+    <Content Include="Resources\born2.gif" />
+    <Content Include="Resources\born3.gif" />
+    <Content Include="Resources\born4.gif" />
+    <Content Include="Resources\enemy1D.gif" />
+    <Content Include="Resources\enemy1L.gif" />
+    <Content Include="Resources\enemy1R.gif" />
+    <Content Include="Resources\enemy1U.gif" />
+    <Content Include="Resources\enemy3D.gif" />
+    <Content Include="Resources\enemy3L.gif" />
+    <Content Include="Resources\enemy3R.gif" />
+    <Content Include="Resources\enemy3U.gif" />
+    <Content Include="Resources\enemymissile.gif" />
+    <Content Include="Resources\fire.wav" />
+    <Content Include="Resources\grass.png" />
+    <Content Include="Resources\hit.wav" />
+    <Content Include="Resources\p2tankD.gif" />
+    <Content Include="Resources\p2tankL.gif" />
+    <Content Include="Resources\p2tankR.gif" />
+    <Content Include="Resources\p2tankU.gif" />
+    <Content Include="Resources\star.gif" />
+    <Content Include="Resources\start.wav" />
+    <Content Include="Resources\steels.gif" />
+    <Content Include="Resources\timer.gif" />
+    <Content Include="Resources\walls.gif" />
+    <Content Include="Resources\water.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

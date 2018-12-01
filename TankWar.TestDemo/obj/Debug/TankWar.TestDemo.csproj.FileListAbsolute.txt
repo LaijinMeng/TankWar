@@ -1,0 +1,10 @@
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\bin\Debug\TankWar.TestDemo.exe.config
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\bin\Debug\TankWar.TestDemo.exe
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\bin\Debug\TankWar.TestDemo.pdb
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.csprojAssemblyReference.cache
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.Form1.resources
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.Properties.Resources.resources
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.csproj.GenerateResource.cache
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.csproj.CoreCompileInputs.cache
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.exe
+D:\csharp.project\小游戏\TankWar\TankWar.TestDemo\obj\Debug\TankWar.TestDemo.pdb
